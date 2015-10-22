@@ -21,7 +21,7 @@ This color scheme is tested with tmux >= 1.5. tmux 1.1 is reported as not workin
 
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
-    set -g @plugin 'seebi/tmux-colors-solarized'
+    set -g @plugin 'antonpaule/tmux-colors-solarized'
 
 Hit `prefix + I` to fetch the plugin and source it. The plugin should now be working.
 
@@ -30,12 +30,11 @@ Hit `prefix + I` to fetch the plugin and source it. The plugin should now be wor
 - `set -g @colors-solarized '256'` (the default)
 - `set -g @colors-solarized 'dark'`
 - `set -g @colors-solarized 'light'`
+- `set -g @colors-solarized 'fancy'`
+- `set -g @colors-solarized 'homini'`
+- `set -g @colors-solarized 'unix-on-the-rocks'`
 
 ## Screenshot
 Here is a screenshot of a tmux session captured from a gnome-terminal using the [dz-version of the awesome Inconsolata font](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/).
 
 ![screenshot](https://github.com/seebi/tmux-colors-solarized/raw/master/tmuxcolors.png)
-
-And another one showing different dircolors from the neighboring [dircolors-solarized](https://github.com/seebi/dircolors-solarized) repository.
-
-![screenshot](https://github.com/seebi/dircolors-solarized/raw/master/img/dircolors.256dark.png)
